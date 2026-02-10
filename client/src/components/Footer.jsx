@@ -9,9 +9,9 @@ const Footer = () => {
                 <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-12">
                     {/* Brand */}
                     <div className="space-y-4">
-                        <h2 className="text-2xl font-bold text-primary">NamamiWaters</h2>
+                        <h2 className="text-2xl font-bold text-primary">Shri namami water</h2>
                         <p className="text-gray-400 text-sm leading-relaxed">
-                            Premium custom water bottle manufacturing for brands, events, and individuals. Eco-friendly, durable, and stylish solutions.
+                            Premium custom water bottle manufacturing by Maa narmade beverages LLP. Eco-friendly, durable, and stylish solutions for brands, events, and individuals.
                         </p>
                         <div className="flex space-x-4 pt-2">
                             <a href="#" className="text-gray-400 hover:text-primary transition-colors"><Facebook size={20} /></a>
@@ -49,22 +49,22 @@ const Footer = () => {
                         <ul className="space-y-4 text-sm text-gray-400">
                             <li className="flex items-start space-x-3">
                                 <MapPin size={18} className="mt-0.5 text-primary" />
-                                <span>123 Manufacturing Hub,<br />Industrial Area, City - 400001</span>
+                                <span>Near pushp masala, bardari,<br />Indore, Madhya Pradesh 453555</span>
                             </li>
                             <li className="flex items-center space-x-3">
                                 <Phone size={18} className="text-primary" />
-                                <span>+91 98765 43210</span>
+                                <a href="tel:+917722822354" className="hover:text-white transition-colors">+91 77228 22354</a>
                             </li>
                             <li className="flex items-center space-x-3">
                                 <Mail size={18} className="text-primary" />
-                                <span>hello@namamiwaters.com</span>
+                                <a href="mailto:namamiwater4@gmail.com" className="hover:text-white transition-colors">namamiwater4@gmail.com</a>
                             </li>
                         </ul>
                     </div>
                 </div>
 
                 <div className="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center text-sm text-gray-500">
-                    <p>&copy; {new Date().getFullYear()} Namami Waters. All rights reserved.</p>
+                    <p>&copy; {new Date().getFullYear()} Maa narmade beverages LLP. All rights reserved.</p>
                     <div className="flex space-x-6 mt-4 md:mt-0">
                         <Link to="/privacy" className="hover:text-white transition-colors">Privacy Policy</Link>
                         <Link to="/terms" className="hover:text-white transition-colors">Terms of Service</Link>

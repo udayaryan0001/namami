@@ -4,7 +4,8 @@ import { AnimatePresence, motion } from 'framer-motion';
 import Home from '../pages/Home';
 import Products from '../pages/Products';
 import Customize from '../pages/Customize';
-import { About, Corporate, Login } from '../pages/Placeholders';
+import About from '../pages/About';
+import { Corporate, Login } from '../pages/Placeholders';
 
 const AnimatedRoutes = () => {
     const location = useLocation();
