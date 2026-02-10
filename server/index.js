@@ -43,3 +43,5 @@ const server = app.listen(PORT, () => {
 }).on('error', (err) => {
     console.error('Server failed to start:', err);
 });
+
+module.exports = app;
